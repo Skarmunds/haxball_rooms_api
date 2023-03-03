@@ -74,7 +74,7 @@ function printPassword(cell, formatterParams) {
 }
 
 async function load() {
-    const req = await fetch("https://corsproxy.io/?https://www.haxball.com/rs/api/list");
+    const req = await fetch("https://www.haxball.com/rs/api/list");
     const res = await req.arrayBuffer();
     return res;
 }
