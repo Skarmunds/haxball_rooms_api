@@ -1,6 +1,6 @@
 body {
     background-color: #73885c;
-    background: #939e7f url("bg.png") fixed;
+    background: #939e7f url("../images/bg.png") fixed;
 }
 
 button {
