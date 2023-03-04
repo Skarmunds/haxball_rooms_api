@@ -32,7 +32,6 @@ const table = new Tabulator("#room-list", {
 table.on("rowDblClick", (e, row) => {
     const data = row.getData();
     window.open(`https://www.haxball.com/play?c=${data.id}${data.password ? "&p=1" : ""}`);
-    console.log("Event", e, "Row", data);
 })
 
 buttonElement.addEventListener("click", (event) => {
